@@ -1,26 +1,18 @@
 {
     "name":"ExiledNivera's package listing",
     "id":"com.exilednivera.listing",
-    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
+    "url":"https://theexilednivera.github.io/template-package-listing/index.json",
     "author":{
         "email":"theexilednivera@gmail.com",
         "name":"ExiledNivera"
     },
     "description":"ExiledNivera's package listing",
     "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
+        "url":"https://github.com/exilednivera/ExiledNivera-VPM-Package-Listing",
         "text":"View on GitHub"
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "exilednivera/udonobservable"
-    ],
-    "packages":[
-        {
-            "name":"com.exilednivera.udonobservable",
-            "releases":[
-                "https://github.com/exilednivera/UdonObservable/archive/refs/tags/0.1.zip"
-            ]
-        }
+        "exilednivera/UdonObservable"
     ]
 }
