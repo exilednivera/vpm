@@ -1,14 +1,14 @@
 {
     "name":"ExiledNivera's package listing",
     "id":"com.exilednivera.listing",
-    "url":"https://theexilednivera.github.io/ExiledNivera-VPM-Package-Listing/index.json",
+    "url":"https://theexilednivera.github.io/vpm/index.json",
     "author":{
         "email":"theexilednivera@gmail.com",
         "name":"ExiledNivera"
     },
     "description":"ExiledNivera's package listing",
     "infoLink":{
-        "url":"https://github.com/exilednivera/ExiledNivera-VPM-Package-Listing",
+        "url":"https://github.com/exilednivera/vpm",
         "text":"View on GitHub"
     },
     "bannerUrl":"banner.png",
