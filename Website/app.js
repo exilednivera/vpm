@@ -1,4 +1,4 @@
-import { baseLayerLuminance, StandardLuminance } from 'https://unpkg.com/@fluentui/web-components';
+import { baseLayerLuminance, StandardLuminance, accentBaseColor, SwatchRGB } from 'https://unpkg.com/@fluentui/web-components';
 
 const LISTING_URL = "{{ listingInfo.Url }}";
 
@@ -29,6 +29,9 @@ const PACKAGES = {
 {{~ end ~}}
 };
 
+// Set accent color to purple (#7C3AED = rgb(124, 58, 237))
+accentBaseColor.setValueFor(document.documentElement, SwatchRGB.create(124 / 255, 58 / 255, 237 / 255));
+
 const setTheme = () => {
   const isDarkTheme = () => window.matchMedia("(prefers-color-scheme: dark)").matches;
   if (isDarkTheme()) {
@@ -44,6 +47,8 @@ const setTheme = () => {
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     setTheme();
   });
+
+  document.getElementById('packageCount').textContent = Object.keys(PACKAGES).length;
 
   const packageGrid = document.getElementById('packageGrid');
 
